@@ -16,7 +16,7 @@ while(userGuess != randNumber):
         else:
             print("you guessed it wrong! enter a larger number")
 
-    guesses += 1
+        guesses += 1
 
 print(f"you guessed the number in {guesses} guesses")
 with open("hiscore.txt", "r") as f:
