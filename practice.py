@@ -56,3 +56,48 @@ print(list_test)
 
 boolean_test = 112>23
 print(boolean_test)
+age = 44
+if age>18:
+    print('elgible')
+else:
+    print('not')
+
+year = 2024
+if  year%4 == 0 or year%100 == 0 and year%400 == 0:
+    print('leap')
+else:
+    print('not leap')
+
+for count in [1, 2, 3, 4, 5]:
+    print(count)
+
+for i in range(5, 5):
+    print(i, end ="")
+
+no = int(input('enter no. : '))
+for i in range(11):
+    mul = no*i
+    print(f'{no} x {i} = {mul}')
+
+count = 1
+while count <= 5:
+    print('hello')
+    count += 1
+
+
+ans = 'y'
+while ans == 'y':
+    num = int(input('enter no. '))
+    if num%2 == 0:
+        print('even number')
+    else:
+        print('odd number')
+    ans = input('do you want to continue? : ')
+
+n = int(input('enter number: '))
+sum = 0 
+i = 1
+while i<= n:
+    sum = sum + i
+    i += 1
+print(sum)
