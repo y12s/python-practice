@@ -120,3 +120,13 @@ while i<=n:
     i += 1
     print(sum)
 
+print('hlo yatharth')
+i = 1
+sum = 0
+n = 45
+while i<n:
+    sum = sum+n
+    i += 1
+    print(sum)
+
+
