@@ -101,3 +101,22 @@ while i<= n:
     sum = sum + i
     i += 1
 print(sum)
+
+age = int(input('enter the no. :'))
+
+if age>=18:
+    print('you are eligible for driving')
+else:
+    print('you are not eligible for driving')
+
+for j in range(1, 11, 3):
+    print(j)
+
+i = 1
+sum = 0
+n = 45
+while i<=n:
+    sum = sum+n
+    i += 1
+    print(sum)
+
